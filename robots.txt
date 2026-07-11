@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://entity-ethereal3.pages.dev/sitemap.xml

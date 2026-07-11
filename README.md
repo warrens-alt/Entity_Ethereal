@@ -1,16 +1,6 @@
 # Entity Ethereal
 
-Premium marketing website for Entity Ethereal, a physical-to-digital campaign intelligence company focused on tracked print, intentional engagement, CRM routing, analytics, and closed-loop attribution.
-
-## Stack
-
-- Vite
-- React
-- TypeScript
-- CSS design tokens
-- Lucide React icons
-
-The original workspace is a Vite app, so the site is implemented as a static-friendly React frontend with route-aware pages instead of migrating the project to Next.js.
+Production marketing website for Entity Ethereal, a physical-to-digital campaign intelligence company focused on intentional print engagement, tracked QR/PURL/NFC journeys, CRM routing, analytics and closed-loop attribution.
 
 ## Routes
 
@@ -24,25 +14,25 @@ The original workspace is a Vite app, so the site is implemented as a static-fri
 ## Commands
 
 ```bash
-npm install
-npm run dev
 npm run build
+npm run dev
 npm run preview
 ```
 
-## Deployment
+## Cloudflare Pages
 
-The build output is generated in `dist/` and can be deployed to a static host. `public/_redirects` routes all paths back to `index.html` so direct visits to nested pages work on hosts such as Cloudflare Pages or Netlify.
+Use these settings:
 
-## Forms
+- Build command: `npm run build`
+- Build output directory: `dist`
+- Root directory: `/` or blank
+- Production branch: `main`
 
-The contact and early-adopter forms are UI-only for launch. Submissions are logged to the browser console with a TODO marker for future backend or CRM integration.
+The site is intentionally dependency-free for launch reliability. Root files are also valid static assets, so the site can still render if a host serves the repository root directly.
 
-## Brand Notes
+## Launch Notes
 
-Core positioning:
-
-- Called, not caught.
-- Tracked physical print → digital omnichannel → closed-loop attribution.
-- No guesswork. No surveillance. Just invitation.
-- No tracking without a tap. No data without intent.
+- `_redirects` rewrites route paths to `index.html`.
+- `_headers` applies security and cache headers.
+- `robots.txt`, `sitemap.xml`, Open Graph metadata and a web manifest are included.
+- Forms store submissions in browser storage for launch and can be connected to CRM or email routing next.
