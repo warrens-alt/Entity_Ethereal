@@ -1,6 +1,6 @@
 # Entity Ethereal
 
-Production marketing website for Entity Ethereal, a physical-to-digital campaign intelligence company focused on intentional print engagement, QR/PURL/NFC signal identity, journey routing, CRM handoff, analytics and closed-loop attribution.
+Production marketing website for Entity Ethereal, a tracked physical print to digital omnichannel company focused on variable-data campaigns, QR/PURL/NFC signal identity, journey routing, CRM handoff, analytics and closed-loop attribution.
 
 ## Routes
 
@@ -32,7 +32,7 @@ The site is intentionally dependency-free for launch reliability. Root files are
 
 ## Theme
 
-The live launch theme uses a light ethereal/technical palette, a signal-console hero, token-level campaign language, and focused pages for services, platform modules, use cases, early access and contact.
+The live launch theme follows the "Called, not caught." positioning from the WhatsApp brief: Ghost White, Data Indigo, Phantom Lavender and Quantum Teal, with a signal-console hero and practical service packages available before the automated platform launches.
 
 ## Launch Notes
 
