@@ -1,22 +1,22 @@
 const routeMeta = {
   '/': {
-    title: 'Entity Ethereal | Physical Signals, Made Measurable',
-    description: 'Entity Ethereal turns print, QR, PURL and NFC campaigns into intentional digital journeys with deterministic attribution.',
+    title: 'Entity Ethereal | Called, Not Caught',
+    description: 'Tracked physical print to digital omnichannel with closed-loop attribution. Entity Ethereal makes print measurable without passive surveillance.',
     view: homeView,
   },
   '/services': {
     title: 'Services | Entity Ethereal',
-    description: 'Campaign architecture, identifier production, landing journeys and attribution design for measurable physical media.',
+    description: 'Tracked print services available now: strategy, full-service campaign execution, production management, analytics setup and optimisation.',
     view: servicesView,
   },
   '/platform': {
     title: 'Platform | Entity Ethereal',
-    description: 'A signal layer for physical media: identifiers, destinations, events, exports and campaign intelligence.',
+    description: 'The Entity Ethereal platform roadmap: batch campaign engine, signal registry, PURL host, event ledger, dashboard and AI optimisation loop.',
     view: platformView,
   },
   '/use-cases': {
     title: 'Use Cases | Entity Ethereal',
-    description: 'Direct mail, events, retail media and high-trust sales journeys made measurable from first scan to revenue signal.',
+    description: 'Direct mail, catalogues, packaging, retail prompts, loyalty cards, agencies and print companies made measurable from scan to conversion.',
     view: useCasesView,
   },
   '/early-adopter': {
@@ -41,35 +41,88 @@ const navItems = [
 ];
 
 const outcomes = [
-  ['Signal identity', 'Every artefact receives a durable token that survives the jump from paper to digital.'],
-  ['Intentional capture', 'Only scan, tap, click and form actions become signal. No passive surveillance layer.'],
-  ['Journey routing', 'Send each recipient to the right landing page, CRM path, team or conversion moment.'],
-  ['Closed-loop proof', 'Tie scans, page views, submissions and revenue events back to the original physical touchpoint.'],
+  ['Tracked print campaigns', 'Turn catalogues, direct mail and packaging into measurable entry points that respect the tap.'],
+  ['Variable data at scale', 'Merge customer data with dynamic content, QR, PURL or NFC identifiers and print-ready outputs.'],
+  ['Closed-loop attribution', 'Log scan, form, purchase and conversion events against the original physical artefact.'],
+  ['Fractional operations', 'Campaign delivery, vendor coordination and performance reporting managed end to end.'],
 ];
 
 const serviceCards = [
-  ['Campaign architecture', 'Define the physical asset, audience logic, destination paths, event model and reporting shape before anything goes to print.'],
-  ['Identifier production', 'Generate QR, PURL and NFC-ready identifiers with metadata outputs for print, fulfilment and operational QA.'],
-  ['Journey orchestration', 'Build the digital layer that receives the signal: landing flows, forms, routing rules, CRM handoff and outcome capture.'],
-  ['Attribution review', 'Read the path from artefact to action, then refine creative, lists, offers and destinations for the next campaign.'],
+  {
+    title: 'Strategy & Blueprint',
+    price: 'From R15,000',
+    copy: 'A 4-week roadmap that turns existing print assets into measurable digital engagement channels.',
+    bullets: ['Audience segmentation', 'QR, PURL, NFC channel model', 'KPI and attribution framework', 'Vendor and data recommendations'],
+  },
+  {
+    title: 'Full-Service Campaign Execution',
+    price: 'From R25,000 per campaign',
+    copy: 'Tracked print execution from data preparation to unique identifiers, print-ready output and summary reporting.',
+    bullets: ['Variable data file preparation', 'Batch QR/PURL generation', 'Print vendor coordination', 'Tracking setup and QA'],
+  },
+  {
+    title: 'Print Production Management',
+    price: '10-15% of print spend',
+    copy: 'Production lifecycle ownership for variable-data print, from supplier comparison to proof approval and delivery.',
+    bullets: ['Prepress checks', 'Production scheduling', 'Quality control', 'Cost reconciliation'],
+  },
+  {
+    title: 'Tracking & Analytics Setup',
+    price: 'R8k-R15k setup + monthly',
+    copy: 'A turnkey tracking layer using dynamic QR, PURL, UTM and dashboard tools clients can see immediately.',
+    bullets: ['Dynamic QR codes', 'PURLs with analytics', 'Live scan dashboards', 'Conversion event tracking'],
+  },
+  {
+    title: 'Performance Reporting',
+    price: 'From R10,000 per report',
+    copy: 'Campaign evidence translated into what worked, what did not and what the next print run should change.',
+    bullets: ['Engagement heatmaps', 'Segment analysis', 'Drop-off points', 'ROI attribution'],
+  },
+  {
+    title: 'Fractional Operations Lead',
+    price: 'From R35,000 / month',
+    copy: 'An embedded digital operations partner for teams running ongoing physical-to-digital campaigns.',
+    bullets: ['Campaign planning', 'Team coordination', 'Vendor communication', 'Platform migration pathway'],
+  },
 ];
 
 const platformModules = [
-  ['Campaign Control', 'Brand workspaces, campaign setup, identifier rules, source rows and destination logic.'],
-  ['Signal Registry', 'Unique tokens, tracking URLs, PURLs, QR assets and metadata exports that stay production-ready.'],
-  ['Journey Layer', 'Personalised experiences, landing pages, forms and routing rules attached to each signal.'],
-  ['Event Ledger', 'Scans, page views, submissions, conversions and custom revenue events tied back to the token.'],
-  ['Output Studio', 'CSV metadata, manifests and print-friendly QR assets for production teams.'],
-  ['Insight Loop', 'Campaign totals, signal rates, conversion value and the evidence needed to optimise the next print run.'],
+  ['Batch Campaign Engine', 'Upload a source file, map variables and generate thousands of unique QR, PURL or NFC identifiers in one operation.'],
+  ['Signal Registry', 'Durable tokens, tracking URLs, PURLs, QR assets and metadata exports tied to source rows.'],
+  ['Output Studio', 'Print-ready PDFs, data manifests, QR coordinate maps and handoff files for production partners.'],
+  ['Journey Layer', 'Personalised landing pages, forms, routing rules and digital fallbacks attached to each artefact.'],
+  ['Event Ledger', 'Scan, form, conversion and purchase events attributed back to campaign, token, segment and source.'],
+  ['Insight Loop', 'Dashboard evidence and AI-assisted recommendations for content, audience and distribution changes.'],
 ];
 
 const useCases = [
-  ['Direct mail', 'Know which household, segment or offer created action without relying on aggregate response estimates.'],
-  ['Retail and packaging', 'Make shelf cards, inserts and packaging prompts measurable when the customer chooses to engage.'],
-  ['Events', 'Connect invitations, table cards, badges and printed follow-up packs to pipeline after the room clears.'],
-  ['High-trust sales', 'Let physical collateral start a deliberate digital action for financial, medical, legal or B2B journeys.'],
-  ['Partner campaigns', 'Give distributors, franchises or field teams measurable physical assets without losing brand control.'],
-  ['Print testing', 'Compare creative, offer, format and audience cells through deterministic token-level feedback.'],
+  ['Direct mail that learns', 'Send segmented postcards or letters and see which household, offer and format created action.'],
+  ['Catalogues to commerce', 'Give every catalogue, spread or product story its own measurable route to online or in-store conversion.'],
+  ['Retail and packaging', 'Measure shelf talkers, inserts, labels and packaging prompts by store, product, time and device.'],
+  ['Loyalty programmes', 'Turn physical cards into digital journeys where taps trigger points, emails, forms or wallet actions.'],
+  ['Agency delivery', 'Give clients print-to-web campaigns with PURLs, landing pages and reporting without building the stack in-house.'],
+  ['Print company transition', 'Add digital engagement, dashboards and recurring optimisation to traditional print production.'],
+];
+
+const processSteps = [
+  ['Discover', 'Audit the current print, data, customer journey and quick-win opportunities.'],
+  ['Design', 'Map the campaign, choose QR/PURL/NFC channels and define variable placeholders.'],
+  ['Deploy', 'Generate identifiers, prepare print-ready assets, coordinate vendors and launch tracking.'],
+  ['Analyse', 'Measure scans, conversions and drop-off points, then refine the next run.'],
+];
+
+const roadmapItems = [
+  ['Now', 'Managed services using best-in-class tools, manual QA and operations leadership.'],
+  ['MVP', 'CSV upload, batch QR/PURL generation, tracking URLs, landing journeys and campaign dashboard.'],
+  ['Next', 'Print-ready PDF rendering, API/webhook integrations and automated client reporting.'],
+  ['Later', 'AI optimisation that suggests content, audience and distribution changes for the next run.'],
+];
+
+const earlyBenefits = [
+  'Lifetime 20% platform discount once the product launches.',
+  'Free onboarding and dedicated support for the first 6 months.',
+  'Beta Council seat to influence feature prioritisation.',
+  'Optional public case study with consent once results are available.',
 ];
 
 function normalisePath(pathname) {
@@ -142,7 +195,7 @@ function heroVisual() {
         <div class="token-panel">
           <span class="panel-label">Live token</span>
           <strong>EE-PURL-7F21</strong>
-          <p>Printed mailer to personalised page to CRM to revenue event.</p>
+          <p>Printed artefact to personalised page to CRM to conversion event.</p>
         </div>
         <div class="qr-frame" aria-hidden="true">
           ${Array.from({ length: 64 }, (_, index) => {
@@ -172,12 +225,12 @@ function homeView() {
   return html`
     <section class="hero section-band">
       <div class="hero-copy">
-        <p class="eyebrow">Physical-to-digital campaign intelligence</p>
-        <h1>Physical signals, made measurable.</h1>
-        <p class="hero-lede">Entity Ethereal turns printed artefacts into intentional digital journeys through QR, PURL, NFC and hybrid identifiers. No guesswork. No passive surveillance. Just clear signal from physical engagement.</p>
+        <p class="eyebrow">Tracked physical print -> digital omnichannel -> closed-loop attribution</p>
+        <h1>Called, not caught.</h1>
+        <p class="hero-lede">Entity Ethereal transforms every printed artefact into a measurable digital signal. No guesswork. No surveillance. Just invitation.</p>
         <div class="hero-actions">
-          <a class="button primary" href="/early-adopter" data-link>Launch an attribution pilot</a>
-          <a class="button secondary" href="/platform" data-link>Explore the signal layer</a>
+          <a class="button primary" href="/services" data-link>See services</a>
+          <a class="button secondary" href="/contact" data-link>Book a call</a>
         </div>
       </div>
       ${heroVisual()}
@@ -189,9 +242,9 @@ function homeView() {
     </section>
     <section class="section-grid">
       <div>
-        <p class="eyebrow">Operating model</p>
-        <h2>Campaigns move from artefact to action to evidence.</h2>
-        <p>Entity Ethereal gives marketing, sales and operations teams a shared system for physical engagement. Source data becomes unique identifiers. Identifiers become printed assets. Printed assets create digital events. Events become attribution, routing and optimisation.</p>
+        <p class="eyebrow">Our vision</p>
+        <h2>Vision. Innovation. Beyond.</h2>
+        <p>We are engineers of the invisible bridge between physical media and digital intelligence. Every piece of print can become a living, traceable entry point into the customer journey with consent, clarity and measurable impact.</p>
       </div>
       <div class="feature-list">
         ${outcomes.map(([title, copy]) => featureItem(title, copy)).join('')}
@@ -199,18 +252,11 @@ function homeView() {
     </section>
     <section class="dark-band">
       <div>
-        <p class="eyebrow">Signal architecture</p>
-        <h2>The bridge from print to performance.</h2>
+        <p class="eyebrow">Process</p>
+        <h2>The traceable thread from print to proof.</h2>
       </div>
       <div class="steps-grid">
-        ${[
-          ['Connect', 'CRM, CDP, CSV or campaign source data.'],
-          ['Compose', 'Audience logic, offer, destination and content.'],
-          ['Generate', 'Secure identifiers and print-ready metadata.'],
-          ['Deploy', 'Mail, event, retail, packaging or sales assets.'],
-          ['Track', 'Intentional scan, tap, page and conversion events.'],
-          ['Optimise', 'Evidence for the next physical media decision.'],
-        ].map(([title, copy], index) => html`
+        ${processSteps.map(([title, copy], index) => html`
           <article>
             <span>${String(index + 1).padStart(2, '0')}</span>
             <h3>${title}</h3>
@@ -219,41 +265,38 @@ function homeView() {
         `).join('')}
       </div>
     </section>
-    ${ctaBand('Ready to make one physical campaign accountable?', 'Start with a focused pilot: one source file, one print asset, one destination path and one outcome model.', '/contact', 'Plan the pilot')}
+    ${ctaBand('Ready to turn print into a living data network?', 'Start with a service engagement now and become an early adopter of the automated platform as it launches.', '/early-adopter', 'Join early access')}
   `;
 }
 
 function servicesView() {
   return html`
-    ${pageHero('Services', 'A launch service for physical campaigns that need digital accountability without bolting together five disconnected tools.')}
-    <section class="cards-grid">
-      ${serviceCards.map(([title, copy]) => card(title, copy)).join('')}
+    ${pageHero('Services', 'Tracked print campaigns, delivered today. While the platform is being built, Entity Ethereal delivers fully managed physical-to-digital campaigns using best-in-class tools and deep operations expertise.')}
+    <section class="cards-grid service-grid">
+      ${serviceCards.map(serviceCard).join('')}
     </section>
     <section class="section-grid compact">
       <div>
-        <p class="eyebrow">Delivery shape</p>
-        <h2>From campaign question to production-ready signal plan.</h2>
+        <p class="eyebrow">What you get</p>
+        <h2>Results now. Platform advantage later.</h2>
+        <p>Each service creates client trust, reusable campaign evidence and a clean pathway into the automated platform when the batch engine is ready.</p>
       </div>
       <div class="timeline-list">
-        ${[
-          ['01', 'Discovery', 'Clarify the physical asset, audience, timing, destination and measurable business outcome.'],
-          ['02', 'Signal design', 'Define token structure, field mapping, routing rules, event taxonomy and privacy boundaries.'],
-          ['03', 'Build and export', 'Prepare identifiers, metadata, QR assets, landing journeys and campaign QA checks.'],
-          ['04', 'Review and optimise', 'Read campaign evidence and decide what should change in the next print run.'],
-        ].map(([num, title, copy]) => html`
+        ${processSteps.map(([title, copy], index) => html`
           <article>
-            <span>${num}</span>
+            <span>${String(index + 1).padStart(2, '0')}</span>
             <div><h3>${title}</h3><p>${copy}</p></div>
           </article>
         `).join('')}
       </div>
     </section>
+    ${ctaBand('Need a quote for a real campaign?', 'Share the asset type, volume, audience source, deadline and the business event you need to measure.', '/contact', 'Get a quote')}
   `;
 }
 
 function platformView() {
   return html`
-    ${pageHero('Platform', 'The Entity Ethereal signal layer keeps physical media, digital destinations and attribution events in one accountable system.')}
+    ${pageHero('Platform', 'The automated Entity Ethereal platform is being built around one differentiator: a batch campaign engine for tracked print, not a generic one-tag-at-a-time QR tool.')}
     <section class="platform-layout">
       ${heroVisual()}
       <div class="feature-list">
@@ -261,8 +304,11 @@ function platformView() {
       </div>
     </section>
     <section class="schema-band">
-      <h2>Campaign -> source data -> unique identifiers -> physical assets -> digital events -> attribution -> optimisation</h2>
-      <p>This is the product model: a physical campaign does not end at print production. It becomes a measurable system with a persistent identity layer.</p>
+      <h2>Campaign -> source data -> unique identifiers -> print-ready assets -> digital journeys -> event ledger -> next print run</h2>
+      <p>This is the product model: physical media becomes a measurable system with a persistent identity layer and a feedback loop.</p>
+    </section>
+    <section class="cards-grid dense">
+      ${roadmapItems.map(([title, copy]) => card(title, copy)).join('')}
     </section>
   `;
 }
@@ -279,17 +325,17 @@ function useCasesView() {
 
 function earlyAdopterView() {
   return html`
-    ${pageHero('Early Access', 'Bring one physical campaign into closed-loop measurement and learn what the signal layer should become next.')}
+    ${pageHero('Early Access', 'Partner now. Save forever. Service clients during the build phase receive the first platform advantage.')}
     <section class="form-layout">
       <div>
-        <h2>Best-fit pilots</h2>
+        <h2>Early adopter benefits</h2>
         <ul class="check-list">
-          <li>Known-recipient direct mail with segmented offers.</li>
-          <li>Event invitations, table cards, badges or printed follow-up packs.</li>
-          <li>Retail or packaging prompts with a clear digital next action.</li>
-          <li>Sales collateral where pipeline attribution is currently anecdotal.</li>
-          <li>Partner or franchise campaigns that need controlled local execution.</li>
+          ${earlyBenefits.map((item) => `<li>${item}</li>`).join('')}
         </ul>
+        <div class="contact-note">
+          <strong>Best-fit pilots</strong>
+          <span>Direct mail, catalogues, packaging, retail prompts, loyalty cards, agency campaigns and print-to-web tests with a measurable next action.</span>
+        </div>
       </div>
       ${leadForm('early-access')}
     </section>
@@ -301,11 +347,11 @@ function contactView() {
     ${pageHero('Contact', 'Tell us what physical media needs to become measurable.')}
     <section class="form-layout">
       <div>
-        <h2>What helps us scope it quickly</h2>
+        <h2>Let us turn your print into a living data network.</h2>
         <p>Share the asset type, expected volume, audience source, destination experience, CRM or analytics stack, and the business event you want to connect back to the physical signal.</p>
         <div class="contact-note">
-          <strong>Launch-ready scope</strong>
-          <span>Campaign design, identifier structure, metadata export, landing flow and reporting plan.</span>
+          <strong>Contact</strong>
+          <span>hello@entityethereal.com<br>Cape Town, South Africa</span>
         </div>
       </div>
       ${leadForm('contact')}
@@ -341,6 +387,20 @@ function card(title, copy) {
       <span aria-hidden="true"></span>
       <h2>${title}</h2>
       <p>${copy}</p>
+    </article>
+  `;
+}
+
+function serviceCard(service) {
+  return html`
+    <article class="info-card service-card">
+      <span aria-hidden="true"></span>
+      <div class="price">${service.price}</div>
+      <h2>${service.title}</h2>
+      <p>${service.copy}</p>
+      <ul class="service-list">
+        ${service.bullets.map((item) => `<li>${item}</li>`).join('')}
+      </ul>
     </article>
   `;
 }
