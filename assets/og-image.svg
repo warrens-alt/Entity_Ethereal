@@ -1,9 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#f7f4ef"/>
-  <rect x="86" y="84" width="1028" height="462" rx="28" fill="#12130f"/>
-  <circle cx="956" cy="314" r="148" fill="#f4d35e"/>
-  <path d="M850 326c70-146 140 146 210 0" fill="none" stroke="#53b7a8" stroke-width="24" stroke-linecap="round"/>
-  <text x="132" y="220" fill="#f7f4ef" font-family="Arial, sans-serif" font-size="74" font-weight="700">Entity Ethereal</text>
-  <text x="136" y="304" fill="#f0c85a" font-family="Arial, sans-serif" font-size="38">Physical signals, made measurable.</text>
-  <text x="136" y="378" fill="#d7d1c4" font-family="Arial, sans-serif" font-size="30">QR, PURL and NFC campaigns with intentional attribution.</text>
+  <defs>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0v44" fill="none" stroke="#dfe5f2" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef2fb"/>
+    </linearGradient>
+    <linearGradient id="dark" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#0d102b"/>
+      <stop offset=".55" stop-color="#211b59"/>
+      <stop offset="1" stop-color="#173f49"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#f8f9fd"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity=".75"/>
+  <rect x="78" y="74" width="1044" height="482" rx="24" fill="url(#dark)"/>
+  <rect x="708" y="132" width="330" height="330" rx="8" fill="url(#panel)" opacity=".98"/>
+  <circle cx="873" cy="297" r="118" fill="none" stroke="#6f65d8" stroke-width="4" opacity=".55"/>
+  <circle cx="873" cy="297" r="75" fill="none" stroke="#d9a928" stroke-width="7"/>
+  <path d="M756 318c78-158 155 158 233 0" fill="none" stroke="#1f9a94" stroke-width="17" stroke-linecap="round"/>
+  <circle cx="982" cy="413" r="16" fill="#b85a55"/>
+  <text x="132" y="222" fill="#ffffff" font-family="Arial, sans-serif" font-size="78" font-weight="700">Entity Ethereal</text>
+  <text x="136" y="306" fill="#83ded8" font-family="Arial, sans-serif" font-size="40" font-weight="700">Physical signals, made measurable.</text>
+  <text x="136" y="382" fill="#dfe5f2" font-family="Arial, sans-serif" font-size="30">QR, PURL, NFC and closed-loop attribution</text>
+  <text x="136" y="432" fill="#dfe5f2" font-family="Arial, sans-serif" font-size="30">for intentional physical engagement.</text>
 </svg>
