@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Entity Ethereal">
-  <rect width="64" height="64" rx="16" fill="#0d102b"/>
-  <circle cx="32" cy="32" r="20" fill="none" stroke="#6f65d8" stroke-width="3"/>
+  <rect width="64" height="64" rx="16" fill="#0b0a1a"/>
+  <circle cx="32" cy="32" r="20" fill="none" stroke="#a98bea" stroke-width="3"/>
   <circle cx="32" cy="32" r="13" fill="none" stroke="#d9a928" stroke-width="3"/>
-  <path d="M18 35c9-18 19 18 28 0" fill="none" stroke="#1f9a94" stroke-width="4" stroke-linecap="round"/>
+  <path d="M18 35c9-18 19 18 28 0" fill="none" stroke="#2dd4bf" stroke-width="4" stroke-linecap="round"/>
   <circle cx="47" cy="46" r="5" fill="#b85a55"/>
 </svg>
