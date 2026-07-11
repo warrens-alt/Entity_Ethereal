@@ -3,8 +3,8 @@
   "short_name": "Entity",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f8f9fd",
-  "theme_color": "#f8f9fd",
+  "background_color": "#f0f3f8",
+  "theme_color": "#f0f3f8",
   "icons": [
     {
       "src": "/assets/favicon.svg",
